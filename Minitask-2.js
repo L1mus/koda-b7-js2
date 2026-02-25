@@ -2,7 +2,7 @@
 let total = 10000000
 function calculateDiscount(total){
   let result = 0
-  if(total>=0){
+  if(total>=0 || !isNaN(total)){
      if(total>1000000){
        result = total - (total*(10/100))
      }else if(total>500000){
