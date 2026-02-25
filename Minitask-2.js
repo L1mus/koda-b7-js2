@@ -13,7 +13,7 @@ function calculateDiscount(total){
    }else{
      return console.log("Nominal invalid")
    }
-  return console.log("Total yang harus dibayar Rp.",result)
+  return console.log(`Total yang harus dibayar Rp.${result}`)
 }
 
 calculateDiscount(total)
